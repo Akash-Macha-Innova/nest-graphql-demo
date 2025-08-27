@@ -21,6 +21,21 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+## Resources
+* [Best way to create GraphQL API ?? | NestJS GraphQL Tutorial](https://youtu.be/geYvdbpo3cA?si=DEYhmRbPyeNfimEX)
+  * Code First Approach (Instead of schema first approach)
+
+## Run
+* npm run start:dev
+* Visit [localhost:3000/graphql](http://localhost:3000/graphql)
+```
+{
+  pets {
+    name
+  }
+}
+```
+
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
