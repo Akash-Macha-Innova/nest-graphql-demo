@@ -28,9 +28,19 @@
 ## Run
 * npm run start:dev
 * Visit [localhost:3000/graphql](http://localhost:3000/graphql)
-```
+``` Query
 {
   pets {
+    name
+  }
+}
+```
+``` Mutation
+mutation {
+  createPet(createPetInput:{
+    name:"Mummbho"
+  }) {
+    id,
     name
   }
 }
